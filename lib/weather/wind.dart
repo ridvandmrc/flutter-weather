@@ -8,7 +8,7 @@ class WindWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 40),
+      margin: EdgeInsets.only(top: 40, bottom: 40),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

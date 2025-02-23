@@ -69,6 +69,8 @@ flutter:
     - assets/icons/partly-cloudy.png
     - assets/icons/wind.png
     - assets/icons/humidity.png
+    - assets/icons/cloudy-snow.webp
+    - assets/icons/rain-cloudy.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

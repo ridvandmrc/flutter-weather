@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_language/language_selection/country.dart';
+import 'package:flutter_language/weather/forecast.dart';
 import 'package:flutter_language/weather/temp.dart';
 import 'package:flutter_language/weather/weather_data.dart';
 import 'package:flutter_language/weather/wind.dart';
@@ -43,7 +44,8 @@ class _WeatherWidget extends State<StatefulWidget> {
                 children: [
                   weatherTitle(weather.country),
                   TempWidget(degree: weather.degree),
-                  WindWidget(wind: weather.wind)
+                  WindWidget(wind: weather.wind),
+                  ForcastWidget(),
                 ])));
   }
 
